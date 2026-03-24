@@ -4,7 +4,7 @@ let form = document.getElementById("myForm");
 
 form.addEventListener("submit", function(event) {
 
-    // ALWAYS stop form first
+    // stop form first
     event.preventDefault();
 
 let inputValue = document.getElementById("inputField").value;
